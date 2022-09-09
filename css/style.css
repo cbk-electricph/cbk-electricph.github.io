@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,600;1,500;1,700&display=swap');
 :root {
   --cbkblue: #00a6be;
   --cbkred: #EC5E5E;
@@ -73,7 +74,8 @@ a:hover {
 }
 
 .hero {
-  height: 100vh;
+  /* height: 100vh; */
+  min-height: 100vh;
   width: 100%;
   background: #5d5b6a;
 }
@@ -592,6 +594,18 @@ a:hover {
   color: var(--cbkwhtfadeDarker);
 }
 
+.btn-cbkblue {
+  color: #fff !important;
+  background-color: var(--cbkblue) !important;
+  border-color: #f8f9fa;
+}
+
+.btn-cbkblue:hover {
+  color: var(--cbkblue) !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+  border-color:  var(--cbkblue);
+}
+
 .line-5 {
   height: 20px;
   width: 50px;
@@ -712,6 +726,46 @@ a:hover {
   filter: brightness(0) invert(1);
 }
 
+.heading-title-font{
+  font-family: 'Kanit', sans-serif;
+}
+
+.rounded-thmb{
+  transition: transform .2s;
+}
+
+.img-thmb{
+  height: 50px;
+  border-radius: 10px !important;
+}
+
+.rounded-thmb:hover{
+  transform: scale(4);
+  z-index: 1000 !important;
+}
+
+video {
+  /* width: 100% !important; */
+  height: 80vh !important;
+  border-radius: 10px !important;
+}
+
+
+/* LOADER */
+.spinner {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 9px solid;
+  border-color: var(--cbklytblue) #0000;
+  animation: spinner-0tkp9a 1s infinite;
+}
+
+@keyframes spinner-0tkp9a {
+  to {
+     transform: rotate(.5turn);
+  }
+}
 
 @media (min-width: 200px) and (max-width: 490.98px){
   h1{
@@ -748,10 +802,14 @@ a:hover {
     display: none;
   }
   ._wide-device{
-    display: none;
+    /* display: none; */
+    padding-bottom: 50px;
+  }
+  .maintitle{
+    min-height: 70vh;
   }
   ._mobile-device{
-    padding-bottom: 100px ;
+    /* padding-bottom: 100px ; */
     /* padding-top: 100px ; */
   }
   .p-img{
@@ -796,6 +854,14 @@ a:hover {
     text-align: center!important;
     /* border-top: 1px solid #dee2e6!important; */
   }
+  .img-thmb{
+    height: 50px !important;
+    border-radius: 10px !important;
+  }
+  .rounded-thmb:hover{
+    transform: scale(4);
+    z-index: 1000 !important;
+  }
 }
 
 @media (min-width: 491px) and (max-width: 575.98px){
@@ -830,9 +896,11 @@ a:hover {
     font-size: 10px !important;
   }
   ._wide-device{
-    display: none;
+    /* display: none; */
   }
-  
+  .maintitle{
+    min-height: 70vh;
+  }
   ._lessStandard{
     display: none;
   }
@@ -881,6 +949,14 @@ a:hover {
     text-align: center!important;
     /* border-top: 1px solid #dee2e6!important; */
   }
+  .img-thmb{
+    height: 70px !important;
+    border-radius: 10px !important;
+  }
+  .rounded-thmb:hover{
+    transform: scale(4);
+    z-index: 1000 !important;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px){
@@ -921,7 +997,7 @@ a:hover {
     padding-top: 1.5rem !important;
   }
   ._wide-device{
-    display: none;
+    /* display: none; */
   }
   .para4{
     display: -webkit-box;
@@ -971,6 +1047,13 @@ a:hover {
     margin-top: 2rem !important;
     padding-top: 1.5rem !important;
     /* border-top: 1px solid #dee2e6!important; */
+  }
+  .img-thmb{
+    border-radius: 10px !important;
+  }
+  .rounded-thmb:hover{
+    transform: scale(4.5);
+    z-index: 1000 !important;
   }
 }
 
@@ -1069,6 +1152,14 @@ a:hover {
     padding-top: .5rem !important;
     /* border-top: 1px solid #dee2e6!important; */
   }
+  .img-thmb{
+    height: 50px !important;
+    border-radius: 10px !important;
+  }
+  .rounded-thmb:hover{
+    transform: scale(4.5);
+    z-index: 1000 !important;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px){
@@ -1157,6 +1248,13 @@ a:hover {
   .tab-img{
     display: none !important;
   }
+  .img-thmb{
+    border-radius: 10px !important;
+  }
+  .rounded-thmb:hover{
+    transform: scale(5);
+    z-index: 1000 !important;
+  }
 }
 
 @media (min-width: 1200px){
@@ -1241,6 +1339,14 @@ a:hover {
   .contact-padding{
     padding-right: 3rem!important;
     padding-left: 3rem!important;
+  }
+  .img-thmb{
+    height: 50px !important;
+    border-radius: 10px !important;
+  }
+  .rounded-thmb:hover{
+    transform: scale(5);
+    z-index: 1000 !important;
   }
 }
 

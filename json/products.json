@@ -1,0 +1,109 @@
+[
+   {
+      "productId": "p-001",
+      "name": "STG-C",
+      "description": "This is perfect for light cleaning jobs around the patio, house, kennel, bike, car and motorbikes and more.  Perfect for weekend car washers. Recommended for jobs with average 3 hours runtime per week*.  Backed up with a 3 months limited warranty.",
+      "imgLink": "../images/washers/product1.png",
+      "category": "washer",
+      "details": [
+         {
+            "volt": "220-240",
+            "motorType": "Universal",
+            "pressure": "50Bar/75Bar",
+            "rate": "6L",
+            "power": "1000W/1200W",
+            "carton": "410*260*320MM",
+            "weight": "11KG/8.5KG"
+         }
+      ],
+      "otherImages": [
+         "../images/washers/product1.png",
+         "../images/washers/product2.png",
+         "../images/washers/product3.png",
+         "../images/washers/product4.png",
+         "../images/washers/product1.png",
+         "../images/washers/product2.png",
+         "../images/washers/product3.png",
+         "../images/washers/product4.png"
+      ],
+      "marketLink": "https://www.facebook.com"
+   },
+   {
+      "productId": "p-002",
+      "name": "STG-X",
+      "description": "This pressure washer is ideal for light to medium duty cleaning jobs Perfect for a variety of outdoor cleaning tasks like fence, garage, kennels, car, motorbike and more! Recommended for jobs with average of 6 hours runtime per week*.  Backed up with a 6 months limited warranty.",
+      "imgLink": "../images/washers/product3.png",
+      "category": "washer",
+      "details": [
+         {
+            "volt": "220-240",
+            "motorType": "Induction Motor",
+            "pressure": "50Bar/75Bar",
+            "rate": "6L",
+            "power": "1000W/1200W",
+            "carton": "410*260*320MM",
+            "weight": "12KG/9KG+1KG"
+         }
+      ],
+      "otherImages": [
+         "../images/washers/product5.png",
+         "../images/washers/product6.png",
+         "../images/washers/7.png",
+         "../images/washers/product15.png",
+         "../images/washers/product15.png",
+         "../images/washers/product15.png"
+      ],
+      "marketLink": "https://www.facebook.com"
+   },
+   {
+      "productId": "p-003",
+      "name": "STG-B",
+      "description": "Can be use for light industrial and commercial use like auto detailing or outdoor cleaning tasks like garage, car, boat, driveway, and more.  Ideal for light to medium duty cleaning jobs with average 10 hrs runtime per week*. Backed up with a 12 months limited warranty.",
+      "imgLink": "../images/washers/product5.png",
+      "category": "washer",
+      "details": [
+         {
+            "volt": "220-240",
+            "motorType": "Induction Motor",
+            "pressure": "70Bar/95Bar",
+            "rate": "6.5L",
+            "power": "1600W/1800W",
+            "carton": "355*336*599MM",
+            "weight": "15KG/12.5KG"
+         }
+      ],
+      "otherImages": [
+         "../images/washers/product15.png",
+         "../images/washers/product16.png",
+         "../images/washers/product1.png",
+         "../images/washers/product2.png",
+         "../images/washers/product3.png"
+      ],
+      "marketLink": "https://www.facebook.com"
+   },
+   {
+      "productId": "p-004",
+      "name": "SC-A",
+      "description": "This pressure washer is ideal for industrial and commercial use; perfect for the professionals for carwash bays, factory or food processing plant, or use on a farm washing animal pen. Ideal for medium to heavy duty cleaning jobs with average 20 hours runtime per week.  Backed up with a 12 months limited warranty.",
+      "imgLink": "../images/washers/7.png",
+      "category": "washer",
+      "details": [
+         {
+            "volt": "220-240",
+            "motorType": "Induction Motor",
+            "pressure": "120Bar/140Bar",
+            "rate": "9L",
+            "power": "2200W/2800W",
+            "carton": "610*456*460MM",
+            "weight": "17KG/15.5KG"
+         }
+      ],
+      "otherImages": [
+         "../images/washers/product19.png",
+         "../images/washers/product1.png",
+         "../images/washers/product2.png",
+         "../images/washers/product3.png"
+      ],
+      "marketLink": "https://www.facebook.com"
+   }
+]
