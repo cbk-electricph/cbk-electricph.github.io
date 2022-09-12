@@ -1,9 +1,9 @@
 [
    {
-      "productId": "p-001",
+      "productId": "cbk-001",
       "name": "STG-C",
       "description": "This is perfect for light cleaning jobs around the patio, house, kennel, bike, car and motorbikes and more.  Perfect for weekend car washers. Recommended for jobs with average 3 hours runtime per week*.  Backed up with a 3 months limited warranty.",
-      "imgLink": "../images/washers/product1.png",
+      "imgLink": "../images/washers/stg-c-6.png",
       "category": "washer",
       "details": [
          {
@@ -17,22 +17,21 @@
          }
       ],
       "otherImages": [
-         "../images/washers/product1.png",
-         "../images/washers/product2.png",
-         "../images/washers/product3.png",
-         "../images/washers/product4.png",
-         "../images/washers/product1.png",
-         "../images/washers/product2.png",
-         "../images/washers/product3.png",
-         "../images/washers/product4.png"
+         "../images/washers/stg-c-1.png",
+         "../images/washers/stg-c-2.png",
+         "../images/washers/stg-c-3.png",
+         "../images/washers/stg-c-4.png",
+         "../images/washers/stg-c-5.png",
+         "../images/bundles/STG-X and STG-C.jpg",
+         "../images/washers/stg-c-6.png"
       ],
       "marketLink": "https://www.facebook.com"
    },
    {
-      "productId": "p-002",
+      "productId": "cbk-002",
       "name": "STG-X",
       "description": "This pressure washer is ideal for light to medium duty cleaning jobs Perfect for a variety of outdoor cleaning tasks like fence, garage, kennels, car, motorbike and more! Recommended for jobs with average of 6 hours runtime per week*.  Backed up with a 6 months limited warranty.",
-      "imgLink": "../images/washers/product3.png",
+      "imgLink": "../images/washers/stg-x-2.png",
       "category": "washer",
       "details": [
          {
@@ -46,20 +45,18 @@
          }
       ],
       "otherImages": [
-         "../images/washers/product5.png",
-         "../images/washers/product6.png",
-         "../images/washers/7.png",
-         "../images/washers/product15.png",
-         "../images/washers/product15.png",
-         "../images/washers/product15.png"
+         "../images/washers/stg-x-1.png",
+         "../images/washers/stg-x-3.png",
+         "../images/washers/stg-x-4.png",
+         "../images/bundles/STG-X and STG-C.jpg"
       ],
       "marketLink": "https://www.facebook.com"
    },
    {
-      "productId": "p-003",
+      "productId": "cbk-003",
       "name": "STG-B",
       "description": "Can be use for light industrial and commercial use like auto detailing or outdoor cleaning tasks like garage, car, boat, driveway, and more.  Ideal for light to medium duty cleaning jobs with average 10 hrs runtime per week*. Backed up with a 12 months limited warranty.",
-      "imgLink": "../images/washers/product5.png",
+      "imgLink": "../images/washers/stg-b-2.png",
       "category": "washer",
       "details": [
          {
@@ -73,19 +70,19 @@
          }
       ],
       "otherImages": [
-         "../images/washers/product15.png",
-         "../images/washers/product16.png",
-         "../images/washers/product1.png",
-         "../images/washers/product2.png",
-         "../images/washers/product3.png"
+         "../images/washers/stg-b-5.png",
+         "../images/washers/stg-b-1.png",
+         "../images/washers/stg-b-3.png",
+         "../images/washers/stg-b-4.png",
+         "../images/bundles/STG-B.jpg"
       ],
       "marketLink": "https://www.facebook.com"
    },
    {
-      "productId": "p-004",
+      "productId": "cbk-004",
       "name": "SC-A",
       "description": "This pressure washer is ideal for industrial and commercial use; perfect for the professionals for carwash bays, factory or food processing plant, or use on a farm washing animal pen. Ideal for medium to heavy duty cleaning jobs with average 20 hours runtime per week.  Backed up with a 12 months limited warranty.",
-      "imgLink": "../images/washers/7.png",
+      "imgLink": "../images/washers/sc-a-2.png",
       "category": "washer",
       "details": [
          {
@@ -99,11 +96,151 @@
          }
       ],
       "otherImages": [
-         "../images/washers/product19.png",
-         "../images/washers/product1.png",
-         "../images/washers/product2.png",
-         "../images/washers/product3.png"
+         "../images/washers/sc-a-1.png",
+         "../images/washers/sc-a-3.png",
+         "../images/washers/sc-a-4.png",
+         "../images/bundles/SC-A.jpg"
       ],
       "marketLink": "https://www.facebook.com"
-   }
+   },
+   {
+      "productId": "cbk-005",
+      "name": "Short Plastic Gun",
+      "description": null,
+      "imgLink": "../images/accessories/acc-3.png",
+      "category": "accessory",
+      "details": null,
+      "otherImages": null,
+      "marketLink": "https://www.youtube.com"
+   },
+   {
+      "productId": "cbk-005",
+      "name": "Short Metal Gun",
+      "description": null,
+      "imgLink": "../images/accessories/acc-9.png",
+      "category": "accessory",
+      "details": null,
+      "otherImages": null,
+      "marketLink": "https://www.youtube.com"
+   },
+   {
+      "productId": "cbk-005",
+      "name": "Long Metal Gun",
+      "description": null,
+      "imgLink": "../images/accessories/acc-12.png",
+      "category": "accessory",
+      "details": null,
+      "otherImages": null,
+      "marketLink": "https://www.youtube.com"
+   },
+   {
+      "productId": "cbk-008",
+      "name": "High Pressure Hose (Blue)",
+      "description": null,
+      "imgLink": "../images/accessories/acc-11.png",
+      "category": "accessory",
+      "details": null,
+      "otherImages": null,
+      "marketLink": "https://www.youtube.com"
+   },
+   {
+      "productId": "cbk-008",
+      "name": "High Pressure Hose (Black)",
+      "description": null,
+      "imgLink": "../images/accessories/acc-8.png",
+      "category": "accessory",
+      "details": null,
+      "otherImages": null,
+      "marketLink": "https://www.youtube.com"
+   },
+   {
+      "productId": "cbk-009",
+      "name": "Garden Hose and Connector",
+      "description": null,
+      "imgLink": "../images/accessories/acc-13.png",
+      "category": "accessory",
+      "details": null,
+      "otherImages": null,
+      "marketLink": "https://www.youtube.com"
+   },
+   {
+      "productId": "cbk-010",
+      "name": "Garden Hose Connector and Filters",
+      "description": null,
+      "imgLink": "../images/accessories/acc-1.png",
+      "category": "accessory",
+      "details": null,
+      "otherImages": null,
+      "marketLink": "https://www.youtube.com"
+   },
+   {
+      "productId": "cbk-006",
+      "name": "Pressure Washer Nozzle Tips",
+      "description": null,
+      "imgLink": "../images/accessories/acc-5.png",
+      "category": "accessory",
+      "details": null,
+      "otherImages": null,
+      "marketLink": "https://www.youtube.com"
+   },
+   {
+      "productId": "cbk-007",
+      "name": "Foam Cannon",
+      "description": null,
+      "imgLink": "../images/accessories/acc-10.png",
+      "category": "accessory",
+      "details": null,
+      "otherImages": null,
+      "marketLink": "https://www.youtube.com"
+   },
+   {
+      "productId": "cbk-011",
+      "name": "Nozzle Pin",
+      "description": null,
+      "imgLink": "../images/accessories/Nozzle Pin.jfif",
+      "category": "accessory",
+      "details": null,
+      "otherImages": null,
+      "marketLink": "https://www.youtube.com"
+   },
+   {
+      "productId": "cbk-012",
+      "name": "STG-C",
+      "description": null,
+      "imgLink": "../images/bundles/stg-x.png",
+      "category": "bundle",
+      "details": null,
+      "otherImages": null,
+      "marketLink": "https://www.youtube.com"
+   },
+   {
+      "productId": "cbk-013",
+      "name": "STG-X",
+      "description": null,
+      "imgLink": "../images/bundles/stg-x.png",
+      "category": "bundle",
+      "details": null,
+      "otherImages": null,
+      "marketLink": "https://www.youtube.com"
+   },
+   {
+      "productId": "cbk-013",
+      "name": "STG-B",
+      "description": null,
+      "imgLink": "../images/bundles/stg-b.png",
+      "category": "bundle",
+      "details": null,
+      "otherImages": null,
+      "marketLink": "https://www.youtube.com"
+   },  
+   {
+      "productId": "cbk-014",
+      "name": "SC-A",
+      "description": null,
+      "imgLink": "../images/bundles/sc-a.png",
+      "category": "bundle",
+      "details": null,
+      "otherImages": null,
+      "marketLink": "https://www.youtube.com"
+   }    
 ]

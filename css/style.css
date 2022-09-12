@@ -751,6 +751,16 @@ video {
 }
 
 
+
+/* horizontal gallery */
+
+
+
+
+/* horizontal gallery end */
+
+
+
 /* LOADER */
 .spinner {
   width: 56px;
@@ -765,6 +775,11 @@ video {
   to {
      transform: rotate(.5turn);
   }
+}
+
+.bundle-img{
+  transition: transform .2s;
+  
 }
 
 @media (min-width: 200px) and (max-width: 490.98px){
@@ -862,6 +877,10 @@ video {
     transform: scale(4);
     z-index: 1000 !important;
   }
+  .bundle-items{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
 }
 
 @media (min-width: 491px) and (max-width: 575.98px){
@@ -922,7 +941,7 @@ video {
     height: 35vh !important;
   }
   .product-img{
-    width: 35vw !important;
+    width: 70vw !important;
     margin: auto !important;
   }
   .footer-logo{
@@ -956,6 +975,10 @@ video {
   .rounded-thmb:hover{
     transform: scale(4);
     z-index: 1000 !important;
+  }
+  .bundle-items{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
   }
 }
 
@@ -1160,6 +1183,10 @@ video {
     transform: scale(4.5);
     z-index: 1000 !important;
   }
+  .bundle-items{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px){
@@ -1255,6 +1282,7 @@ video {
     transform: scale(5);
     z-index: 1000 !important;
   }
+  
 }
 
 @media (min-width: 1200px){
@@ -1347,6 +1375,16 @@ video {
   .rounded-thmb:hover{
     transform: scale(5);
     z-index: 1000 !important;
+  }
+  .bundle-items{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+  .bundle-img:hover{
+    transform: scale(2);
+    z-index: 1000 !important;
+    background-color: white !important;
+    border-radius: 10px;;
   }
 }
 
