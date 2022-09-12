@@ -441,39 +441,29 @@
               <h3 class="timeline-header__title pt-5">Pressure Washers</h3>
               <h3 class="timeline-header__subtitle"></h3>
           </div>
-          <div class="timeline">
-            <div class="timeline-item" data-text="HIGH PRESSURE WASHER ST-G-1">
-              <div class="timeline__content"><img class="timeline__img" src="./images/washers/product3.png" />
-                <h2 class="timeline__content-title">ST-G-1</h2>
-                <p class="timeline__content-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                  fugiat nulla pariatur.</p>
+          <div id="mainPageTimeline" class="timeline">
+            <div class="timeline-item" data-text="HIGH PRESSURE WASHER STG-C">
+              <div class="timeline__content"><img class="timeline__img" src="../images/washers/stg-c-6.png" />
+                <h2 class="timeline__content-title">STG-C</h2>
+                <p class="timeline__content-desc">This is perfect for light cleaning jobs around the patio, house, kennel, bike, car and motorbikes and more.  Perfect for weekend car washers. Recommended for jobs with average 3 hours runtime per week.</p>
               </div>
             </div>
-            <div class="timeline-item" data-text="HIGH PRESSURE WASHER ST-G-2">
-              <div class="timeline__content"><img class="timeline__img" src="./images/washers/product6.png" />
-                <h2 class="timeline__content-title">ST-G-2</h2>
-                <p class="timeline__content-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
-                  vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                  consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+            <div class="timeline-item" data-text="HIGH PRESSURE WASHER STG-B">
+              <div class="timeline__content"><img class="timeline__img" src="../images/washers/stg-x-2.png" />
+                <h2 class="timeline__content-title">STG-X</h2>
+                <p class="timeline__content-desc">This pressure washer is ideal for light to medium duty cleaning jobs Perfect for a variety of outdoor cleaning tasks like fence, garage, kennels, car, motorbike and more! Recommended for jobs with average of 6 hours runtime per week.</p>
               </div>
             </div>
-            <div class="timeline-item" data-text="HIGH PRESSURE WASHER ST-G-3">
-              <div class="timeline__content"><img class="timeline__img" src="./images/washers/product5.png" />
-                <h2 class="timeline__content-title">ST-G-3</h2>
-                <p class="timeline__content-desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                  praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
-                  non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+            <div class="timeline-item" data-text="HIGH PRESSURE WASHER STG-B">
+              <div class="timeline__content"><img class="timeline__img" src="../images/washers/stg-b-2.png" />
+                <h2 class="timeline__content-title">STG-B</h2>
+                <p class="timeline__content-desc">Can be use for light industrial and commercial use like auto detailing or outdoor cleaning tasks like garage, car, boat, driveway, and more.  Ideal for light to medium duty cleaning jobs with average 10 hrs runtime per week.</p>
               </div>
             </div>
-            <div class="timeline-item" data-text="HIGH PRESSURE WASHER ST-G-4">
-              <div class="timeline__content"><img class="timeline__img" src="./images/washers/product1.png" />
-                <h2 class="timeline__content-title">ST-G-4</h2>
-                <p class="timeline__content-desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                  praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
-                  non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+            <div class="timeline-item" data-text="HIGH PRESSURE WASHER SC-A">
+              <div class="timeline__content"><img class="timeline__img" src="../images/washers/sc-a-2.png" />
+                <h2 class="timeline__content-title">SC-A</h2>
+                <p class="timeline__content-desc">This pressure washer is ideal for industrial and commercial use; perfect for the professionals for carwash bays, factory or food processing plant, or use on a farm washing animal pen. Ideal for medium to heavy duty cleaning jobs with average 20 hours runtime per week.</p>
               </div>
             </div>
             <div class="position-absolute top-100 start-50 translate-middle mt-5">
@@ -620,13 +610,6 @@
       </div>
     </div>
 
-
-
-    
-
-
-
-
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -642,7 +625,7 @@
 
       $(document).ready(()=>{
 
-        // INITIALIZE EVENTS
+        /* INITIALIZE JSON DATA */
         $('#_loader').modal('show');
         const jsonData = fetch(dataUrl);
         jsonData.then((response)=>{
@@ -660,88 +643,90 @@
         })
 
         setTimeout(()=>{
-          // console.log(productsData);
           generateProductsList(productsData);
           $('#_loader').modal('hide');
         }, 1000)
-        
-        _ifSupportVisible = false;
-        $('#_support-page').hide();
-        $('.main-section').hide();
-        $('._mobile-device').hide();
-        $('._wide-device').hide();
-        // $('.hero').css('height', '100%');
-        $('#_main-section').removeClass('support-bg').addClass('main-card');
-        $('#_products-page').fadeIn( "slow" );
-        scrollToSection('_main-section');
-        $('.mainTab').click();
 
-        // $('#_products-page').hide();
-        // $('._all-products').on('click', function(){
-        //   _ifSupportVisible = false;
-        //   $('#_support-page').hide();
-        //   $('.main-section').hide();
-        //   $('._mobile-device').hide();
-        //   $('._wide-device').hide();
-        //   // $('.hero').css('height', '100%');
-        //   $('#_main-section').removeClass('support-bg').addClass('main-card');
-        //   $('#_products-page').fadeIn( "slow" );
-        //   scrollToSection('_main-section');
-        //   $('.mainTab').click();
-        // });
-        // $("._cbk-home").on('click', function(){
-        //   _ifSupportVisible = false;
-        //   $('#_products-page').hide();
-        //   $('#_support-page').hide();
-        //   $('#_main-section').removeClass('support-bg').addClass('main-card');
-        //   $('.main-section').show();
-        //   if(screen.width >= 768){
-        //     $('._wide-device').show();
-        //   } else {
-        //     $('._mobile-device').show();
-        //   }
-        //   // $('.hero').css('height', '100vh');
-        //   scrollToSection('_main-section');
-        // });
-        // $('._gotoSupport').on('click', function(){
-        //   $('.main-section').hide();
-        //   $('._mobile-device').hide();
-        //   $('._wide-device').hide();
-        //   $('#_products-page').hide();
-        //   _ifSupportVisible = true;
-        //   if(screen.width >= 1200){
-        //     // $('.hero').css('height', '100vh');
-        //   } else {
-        //     // $('.hero').css('height', '100%');
-        //   }
-        //   $('#_main-section').removeClass('main-card').addClass('support-bg');
-        //   $('#_support-page').show();
-        //   scrollToSection('_main-section');
-        // })
-        // $(".show-accessories").on('click', function(){
-        //   _ifSupportVisible = false;
-        //   $('#_support-page').hide();
-        //   $('.main-section').hide();
-        //   $('._mobile-device').hide();
-        //   $('._wide-device').hide();
-        //   $('.hero').css('height', '100%');
-        //   $('#_main-section').removeClass('support-bg').addClass('main-card');
-        //   $('#_products-page').fadeIn( "slow" );
-        //   scrollToSection('_main-section');
-        //   $('.acc-tab').click();
-        // })
-        // $('.showwashers').on('click', function(){
-        //   _ifSupportVisible = false;
-        //   $('#_support-page').hide();
-        //   $('.main-section').hide();
-        //   $('._mobile-device').hide();
-        //   $('._wide-device').hide();
-        //   $('.hero').css('height', '100%');
-        //   $('#_main-section').removeClass('support-bg').addClass('main-card');
-        //   $('#_products-page').fadeIn( "slow" );
-        //   scrollToSection('_main-section');
-        //   $('.mainTab').click();
-        // })
+        /* INITIALIZE JSON DATA END */
+        
+        // _ifSupportVisible = false;
+        // $('#_support-page').hide();
+        // $('.main-section').hide();
+        // $('._mobile-device').hide();
+        // $('._wide-device').hide();
+        // // $('.hero').css('height', '100%');
+        // $('#_main-section').removeClass('support-bg').addClass('main-card');
+        // $('#_products-page').fadeIn( "slow" );
+        // scrollToSection('_main-section');
+        // $('.mainTab').click();
+
+        /* ACTUAL EVENT HANDLERS */
+        $('#_products-page').hide();
+        $('._all-products').on('click', function(){
+          _ifSupportVisible = false;
+          $('#_support-page').hide();
+          $('.main-section').hide();
+          $('._mobile-device').hide();
+          $('._wide-device').hide();
+          // $('.hero').css('height', '100%');
+          $('#_main-section').removeClass('support-bg').addClass('main-card');
+          $('#_products-page').fadeIn( "slow" );
+          scrollToSection('_main-section');
+          $('.mainTab').click();
+        });
+        $("._cbk-home").on('click', function(){
+          _ifSupportVisible = false;
+          $('#_products-page').hide();
+          $('#_support-page').hide();
+          $('#_main-section').removeClass('support-bg').addClass('main-card');
+          $('.main-section').show();
+          if(screen.width >= 768){
+            $('._wide-device').show();
+          } else {
+            $('._mobile-device').show();
+          }
+          // $('.hero').css('height', '100vh');
+          scrollToSection('_main-section');
+        });
+        $('._gotoSupport').on('click', function(){
+          $('.main-section').hide();
+          $('._mobile-device').hide();
+          $('._wide-device').hide();
+          $('#_products-page').hide();
+          _ifSupportVisible = true;
+          if(screen.width >= 1200){
+            // $('.hero').css('height', '100vh');
+          } else {
+            // $('.hero').css('height', '100%');
+          }
+          $('#_main-section').removeClass('main-card').addClass('support-bg');
+          $('#_support-page').show();
+          scrollToSection('_main-section');
+        })
+        $(".show-accessories").on('click', function(){
+          _ifSupportVisible = false;
+          $('#_support-page').hide();
+          $('.main-section').hide();
+          $('._mobile-device').hide();
+          $('._wide-device').hide();
+          $('.hero').css('height', '100%');
+          $('#_main-section').removeClass('support-bg').addClass('main-card');
+          $('#_products-page').fadeIn( "slow" );
+          scrollToSection('_main-section');
+          $('.acc-tab').click();
+        })
+        $('.showwashers').on('click', function(){
+          _ifSupportVisible = false;
+          $('#_support-page').hide();
+          $('.main-section').hide();
+          $('._mobile-device').hide();
+          $('._wide-device').hide();
+          $('.hero').css('height', '100%');
+          $('#_main-section').removeClass('support-bg').addClass('main-card');
+          $('#_products-page').fadeIn( "slow" );
+          scrollToSection('_main-section');
+          $('.mainTab').click();
+        })
 
         $('.view-modal-details').on('click', function(){
           $('#_detail-modal').modal('show');
@@ -760,6 +745,8 @@
         $(window).scroll(function () {
             
         });
+
+        /* ACTUAL EVENT HANDLERS END */
 
       })
 
@@ -784,6 +771,7 @@
         const _bundleItems = _data.filter((data)=>{
           return data.category == "bundle"
         })
+
       
         for(var dataItem of _washerItems){
           itemsCard += `<div class="col pt-5 washer-items">`;
@@ -849,6 +837,7 @@
           bundleCard += `</div>`;
         }
 
+        
         $('#washersList').empty().append(itemsCard);
         $('#accsList').empty().append(accitemsCard);
         $('#bundleList').empty().append(bundleCard);
