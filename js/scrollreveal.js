@@ -41,6 +41,20 @@ ScrollReveal().reveal(".slide-right", {
   easing: "ease-in-out"
 });
 
+ScrollReveal().reveal(".slide-right2", {
+  duration: 1500,
+  origin: "left",
+  distance: "300px",
+  easing: "ease-in-out"
+});
+
+ScrollReveal().reveal(".slide-right3", {
+  duration: 2000,
+  origin: "left",
+  distance: "300px",
+  easing: "ease-in-out"
+});
+
 ScrollReveal().reveal(".slide-left", {
    duration: 1000,
    origin: "right",
