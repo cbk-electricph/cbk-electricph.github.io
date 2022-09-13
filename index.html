@@ -116,7 +116,7 @@
     <div id="_main-section" class="hero main-card overflow-hidden d-flex align-items-center justify-content-center">
       
         <!-- MOBILE LAYOUT --> 
-        <section class="_mobile-device">
+        <section class="_mobile-device" style="display: none;">
 
           <!-- <div class="col-12 text-center">
             <div class="text-left">
@@ -1152,7 +1152,7 @@
           _ifSupportVisible = false;
           $('#_support-page').hide();
           $('.main-section').hide();
-          $('._mobile-device').hide();
+          // $('._mobile-device').hide();
           $('._wide-device').hide();
           $('.privacy-policy').hide();
           // $('.hero').css('height', '100%');
@@ -1183,7 +1183,7 @@
           $('.product-warranty').hide();
           $('.privacy-policy').hide();
           $('.main-section').hide();
-          $('._mobile-device').hide();
+          // $('._mobile-device').hide();
           $('._wide-device').hide();
           $('#_products-page').hide();
           _ifSupportVisible = true;
@@ -1203,7 +1203,7 @@
           _ifSupportVisible = false;
           $('#_support-page').hide();
           $('.main-section').hide();
-          $('._mobile-device').hide();
+          // $('._mobile-device').hide();
           $('._wide-device').hide();
           $('.hero').css('height', '100%');
           $('#_main-section').removeClass('support-bg').addClass('main-card');
@@ -1218,7 +1218,7 @@
           $('.privacy-policy').hide();
           $('#_support-page').hide();
           $('.main-section').hide();
-          $('._mobile-device').hide();
+          // $('._mobile-device').hide();
           $('._wide-device').hide();
           $('.hero').css('height', '100%');
           $('#_main-section').removeClass('support-bg').addClass('main-card');
@@ -1233,7 +1233,7 @@
           _ifSupportVisible = false;
           $('#_support-page').hide();
           $('.main-section').hide();
-          $('._mobile-device').hide();
+          // $('._mobile-device').hide();
           $('._wide-device').hide();
           $('.hero').css('height', '100%');
           $('#_main-section').removeClass('support-bg').addClass('main-card');
@@ -1248,7 +1248,7 @@
           _ifSupportVisible = false;
           $('#_support-page').hide();
           $('.main-section').hide();
-          $('._mobile-device').hide();
+          // $('._mobile-device').hide();
           $('._wide-device').hide();
           $('.hero').css('height', '100%');
           $('#_main-section').removeClass('support-bg').addClass('main-card');
@@ -1262,7 +1262,7 @@
           _ifSupportVisible = false;
           $('#_support-page').hide();
           $('.main-section').hide();
-          $('._mobile-device').hide();
+          // $('._mobile-device').hide();
           $('._wide-device').hide();
           $('.hero').css('height', '100%');
           $('#_main-section').removeClass('support-bg').addClass('main-card');
@@ -1281,9 +1281,7 @@
         setInterval(function () {
           if($('.product-warranty').is(":visible") || $('.privacy-policy').is(":visible") || $('.faq-s').is(":visible")){
             $('#_main-section').removeClass('d-flex').removeClass('align-items-center');
-            console.log('visible');
           } else {
-            console.log('not visible');
             $('#_main-section').addClass('d-flex').addClass('align-items-center');
           }
         }, 300);
