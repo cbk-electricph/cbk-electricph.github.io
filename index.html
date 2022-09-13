@@ -223,7 +223,9 @@
         </section>
 
         <section id="_support-page" style="display: none;">
+          
           <div class="container">
+            <button type="button" class="btn btn-primary rounded-0" onclick="navigate()">Click</button>
             <div class="row justify-content-center row-cols-1 row-cols-md-4 g-4">
 
               <div class="col col-md-6 col-lg-3">
@@ -1097,6 +1099,10 @@
         
 
       })
+
+      function navigate(){
+         window.location.href = "support-page.html"
+      }
 
       async function getProductsJSON(_data){
         productsData = await _data;
