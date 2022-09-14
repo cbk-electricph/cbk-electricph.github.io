@@ -342,3 +342,53 @@ jQuery(document).ready(function($){
 	window.addEventListener("scroll", callbackFunc);
  })();
  
+
+
+//  NAVIGATION HANDLER
+function navigateTo(_page){
+	switch (_page) {
+		case 'products':
+			window.location.href = "products.html"
+			break;
+		case 'support':
+			window.location.href = "support-page.html"
+		break;
+		case 'faq':
+			window.location.href = "faq.html"
+		break;
+		case 'warranty':
+			window.location.href = "product-warranty.html"
+		break;
+		case 'privacy':
+			window.location.href = "privacy-policy.html"
+		break;	
+		default:
+			window.location.href = "index.html"
+			break;
+	}
+}
+
+function goToLink(_serviceLink){
+	switch(_serviceLink) { 
+		case 'requestService':
+			window.open('https://docs.google.com/forms/d/e/1FAIpQLScjefX_0WwOaYKrzFmMFoOXeHxYrdiUCvIv91VzOcvVs63PQw/viewform')
+			break;
+		case 'productRegistration':
+			window.open('https://docs.google.com/forms/d/e/1FAIpQLSd-ECQiAsGneiIInl34gfdV37XG8zF1TqvXIHMTMCkcpPmXNw/viewform')
+			break;
+		case 'facebook':
+			window.open('https://www.facebook.com/CBKPHILPIPPINES')
+			break;  
+		case 'instagram':
+			window.open('https://www.instagram.com/cbk_pressurewasher/')
+			break;
+		case 'macolay':
+			window.open('https://www.facebook.com/squeakywatermarksremover')
+			break;  
+		case 'dalliance':
+			window.open('https://www.facebook.com/wearedetailalliance')
+			break; 
+		default:
+			// code block
+	}
+}

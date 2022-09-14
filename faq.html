@@ -109,81 +109,241 @@
     </header>
 
 
-    <div id="_main-section" class="hero main-card overflow-hidden d-flex align-items-center justify-content-center support-bg">
+    <div id="_main-section" class="hero main-card overflow-hidden  justify-content-center">
 
-        <section id="_support-page">
-          
-          <div class="container ">
-            <div class="row justify-content-center row-cols-1 row-cols-md-4 g-4">
+        <section class="faq-s">
 
-              <div class="col col-md-6 col-lg-3 scaleUp">
-                <div class="card border-0 shadow glass-effect h-100 faq-s-section">
-                  <div class="card-body p-4">
-                    <div class="text-center">
-                      <i class="fas fa-question-circle text-white fa-5x"></i>
-                    </div>
-                    <h5 class="font-weight-bold text-center pt-4 font-white">FAQ'S</h5>
-                    <p class="bdy-p text-white pt-4 text-center">
-                      Need some help or got a question that you need answers.
+          <div class="container">
+            <h3 class="font-white text-center title">FAQ's</h3>
+            <div class="accordion" id="accordionExample">
+              <div class="item fade-in">
+                <div class="item-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-radius10" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      The Motor does not start?
+                      <i class="fa fa-angle-down"></i>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseOne" class="collapse shadow pb-2" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="t-p">
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      When the unit is in the idle state the water in the pump reaches max pressure causing the motor to switch off.
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Engage the trigger of the gun to let water flow out and relieve the pressure in the pump
+                    </p>
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      The extension cord is too long or is not the proper gauge. 
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Replace the extension cord with either a 25’ (7.6 m) 12/3-gauge cord or a 50’ (15 m) 10/3-gauge cord.
+                    </p>
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      Electrical outlet does not supply adequate power.
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Try different outlet.
+                    </p>
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      Motor suddenly stopped during continuous running.
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Motor protector has activated allow to cool for 5 to 10 minutes.
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="col col-md-6 col-lg-3 scaleUp">
-                <div class="card border-0 shadow glass-effect h-100  contact-us">
-                  <div class="card-body p-4">
-                    <div class="text-center">
-                      <i class="fas fa-headset text-white fa-5x"></i>
-                    </div>
-                    <h5 class="font-weight-bold text-center pt-4 font-white">Contact Us</h5>
-                    <p class="bdy-p text-white pt-4 text-center">
-                      Let's Talk about your concern. Send us a message and we'll be in touch.
+              <div class="item fade-in">
+                <div class="item-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed  btn-radius10" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      The Motor runs but no pressure?
+                      <i class="fa fa-angle-down"></i>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse shadow pb-2" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="t-p">
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      No water supply.
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Connect to water supply or check if water source was interrupted.
+                    </p>
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      Water filter clogged up.
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Clean water filter.
+                    </p>
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      Nozzle clogged up.
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Remove clogged by using nozzle pin.
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="col col-md-6 col-lg-3 scaleUp">
-                <div class="card border-0 shadow glass-effect h-100 warranty-section">
-                  <div class="card-body p-4">
-                    <div class="text-center">
-                      <i class="fas fa-shield-alt text-white fa-5x"></i>
-                    </div>
-                    <h5 class="font-weight-bold text-center pt-4 font-white">Product Warranty</h5>
-                    <p class="bdy-p text-white pt-4 text-center">
-                      Don't worry with your damage products we're here to help you.
+              <div class="item fade-in">
+                <div class="item-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed  btn-radius10" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Water does not reach high pressure?
+                      <i class="fa fa-angle-down"></i>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse shadow pb-2" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="t-p">
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      Diameter of garden hose is too small.
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Replace with a ½ inch or 5/8 garden hose.
+                    </p>     
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      Water supply is restricted.
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Check water hose for kinks, leaks and blockage.
+                    </p>  
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      Not enough inlet water supply.
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Open water source at full level.
+                    </p>  
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      Water inlet filter is clogged.
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Remove filter and rinse out with warm water.
+                    </p>  
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      Spray gun is on low pressure setting/level
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Set the spray gun to high level setting.
+                    </p>                 
+                  </div>
+                </div>
+              </div>
+              <div class="item fade-in">
+                <div class="item-header" id="headingFour">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed  btn-radius10" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Output pressure varies high and low?
+                      <i class="fa fa-angle-down"></i>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFour" class="collapse shadow pb-2" aria-labelledby="headingFour" data-parent="#accordionExample">
+                  <div class="t-p">
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      Pump is sucking air.
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Check that hoses and fittings are air tight, turn off machine and purge pump by squeezing trigger gun until a steady flow of water emerges through the nozzle.
+                    </p>
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      Water inlet filter is clogged.
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Remove filter and rinse out with warm water.
+                    </p>
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      Discharge nozzle is obstructed
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Blow out or remove debris with supplied nozzle needle.
+                    </p>
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      Calcified gun, hose, or spray wand
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Run distilled vinegar through snow foam lance.
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="col col-md-6 col-lg-3 scaleUp">
-                <div class="card border-0 shadow glass-effect h-100" onclick="goToLink('requestService')">
-                  <div class="card-body p-4">
-                    <div class="text-center">
-                      <i class="fas fa-tools text-white fa-5x"></i>
-                    </div>
-                    <h5 class="font-weight-bold text-center pt-4 font-white">Request Service</h5>
-                    <p class="bdy-p text-white pt-4 text-center">
-                      We feeling the joy of serving you best.
+              <div class="item fade-in">
+                <div class="item-header" id="heading5">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed  btn-radius10" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                      Spray wand leaks?
+                      <i class="fa fa-angle-down"></i>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse5" class="collapse shadow pb-2" aria-labelledby="heading5" data-parent="#accordionExample">
+                  <div class="t-p">
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      Spray wand not properly attached.
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Insert the spray wand into the trigger gun.  Carefully press in against the spring tension and twist into the locked position.
+                    </p>
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      Broken o-ring or plastic insert.
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Please contact our customer support.
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="col col-md-6 col-lg-3 scaleUp">
-                <div class="card border-0 shadow glass-effect h-100" onclick="goToLink('productRegistration')">
-                  <div class="card-body p-4">
-                    <div class="text-center">
-                      <i class="fas fa-registered text-white fa-5x"></i>
-                    </div>
-                    <h5 class="font-weight-bold text-center pt-4 font-white">Product Registration</h5>
-                    <p class="bdy-p text-white pt-4 text-center">
-                      We recommend registering your product with us, so that we can help you as quickly and efficiently as possible.
+              <div class="item fade-in">
+                <div class="item-header" id="heading6">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed  btn-radius10" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                      Water leaks from pump?
+                      <i class="fa fa-angle-down"></i>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse6" class="collapse shadow pb-2" aria-labelledby="heading6" data-parent="#accordionExample">
+                  <div class="t-p">
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      Loose connector fittings.
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Tighten fittings.
+                    </p>
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      Water seals are damaged or worn out.
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Please contact our customer support.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item fade-in">
+                <div class="item-header" id="heading7">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link collapsed  btn-radius10" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                      Oil drip?
+                      <i class="fa fa-angle-down"></i>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapse7" class="collapse shadow pb-2" aria-labelledby="heading7" data-parent="#accordionExample">
+                  <div class="t-p">
+                    <p class="bdy-p font-white"><strong class="font-weight-bold">Cause:</strong>
+                      Oil seals are damaged or worn out.
+                    </p>
+                    <p class="bdy-p font-white mb-5"><strong class="font-weight-bold">Solution:</strong>
+                      Please contact our customer support.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
+          
           </div>
-      
+
         </section>
 
     </div>
@@ -276,42 +436,6 @@
       </div>
     </div>
 
-    <div class="modal fade" id="contactModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel">Contacts</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <section>
-              <p class="bdy-p pr-3 text-dark"><i class="bi bi-envelope bdy-p pr-1"></i> cbkphilippines@gmail.com</p>
-              <p class="bdy-p pr-3 text-dark" onclick="goToLink('facebook')" style="cursor: pointer;"><i class="bi bi-facebook bdy-p pr-1"></i> Facebook</p>
-              <p class="bdy-p pr-3 text-dark" onclick="goToLink('instagram')" style="cursor: pointer;"><i class="bi bi-instagram bdy-p pr-1"></i> Instagram</p>
-            </section>
-            <hr>
-            <section>
-              <p class="lead-p mb-1 text-dark">Detail Alliance Manila</p>
-              <p class="bdy-p mb-1 text-dark"><i class="bi bi-phone bdy-p pr-2"></i>+63 917 300 7284</p>
-              <p class="bdy-p mb-1 text-dark"><i class="bi bi-geo-alt-fill bdy-p pr-2"></i>808 Armela Compound West Service Road Bicutan Parañaque City</p>
-            </section>
-            <hr>
-            <section>
-              <p class="lead-p mb-1 text-dark">Macolay Enterprise</p>
-              <p class="stp-p mb-1 text-dark"><i class="bi bi-phone bdy-p pr-2"></i>+63 915 938 4789</p>
-              <p class="stp-p mb-1 text-dark"><i class="bi bi-geo-alt-fill bdy-p pr-2"></i>Brgy. Malusak, Sta.Rosa City, Laguna</p>
-            </section>
-            <div class="pt-4 text-right">
-              <button type="button" class="btn btn-outline-secondary rounded-0" data-bs-dismiss="modal" style="width: 120px;">Close</button>
-            </div>
-          </div>
-          <!-- <div class="modal-footer">
-            <button type="button" class="btn btn-outline-secondary rounded-0" data-bs-dismiss="modal" style="width: ;">Close</button>
-          </div> -->
-        </div>
-      </div>
-    </div>
-
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -327,9 +451,6 @@
 
       $(document).ready(()=>{
 
-        /* INITIALIZE JSON DATA END */
-
-        
         /* ACTUAL EVENT HANDLERS */
         // $('#_products-page').hide();
         $('._all-products').on('click', function(){
@@ -444,11 +565,6 @@
           // scrollToSection('_main-section');
         })
 
-
-        $('.contact-us').on('click', function(){
-          $('#contactModal').modal('show');
-        })
-
         setInterval(function () {
           if($('.product-warranty').is(":visible") || $('.privacy-policy').is(":visible") || $('.faq-s').is(":visible")){
             $('#_main-section').removeClass('d-flex').removeClass('align-items-center');
@@ -475,6 +591,10 @@
         
 
       })
+
+      function navigate(){
+         window.location.href = "support-page.html"
+      }
 
       async function getProductsJSON(_data){
         productsData = await _data;
