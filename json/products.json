@@ -242,5 +242,15 @@
       "details": null,
       "otherImages": null,
       "marketLink": "https://www.youtube.com"
-   }    
+   },   
+   {
+      "productId": "cbk-015",
+      "name": "D'CAL Hard Water Softener System",
+      "description": null,
+      "imgLink": "../images/bundles/dcal.png",
+      "category": "bundle",
+      "details": null,
+      "otherImages": null,
+      "marketLink": "https://www.youtube.com"
+   }  
 ]
