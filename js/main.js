@@ -392,3 +392,19 @@ function goToLink(_serviceLink){
 			// code block
 	}
 }
+
+function backtotop(_elementId){
+	var elementTop = $('#'+ _elementId).offset().top;
+	var elementBottom = elementTop + $('#'+ _elementId).outerHeight();
+	var viewportTop = $(window).scrollTop();
+	var viewportBottom = viewportTop + $(window).height();
+
+	var isinview = elementBottom > viewportTop && elementTop < viewportBottom
+
+	if (isinview) {
+		$('#floatingBtn').hide();
+	}
+	else {
+		$('#floatingBtn').show();
+	}
+}

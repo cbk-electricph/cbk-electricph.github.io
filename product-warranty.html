@@ -56,13 +56,13 @@
       <div class="container">
         <div class="row align-items-center">
           
-          <div class="col-6 col-xl-2">
+          <div class="col-8 col-xl-6">
             <p class="mb-0 site-logo bdy">
-              <img  src="./images/logo/cbk-logo-blue.png" alt="" class="img-fluid pr-3" style="height: 30px;"><strong class="font-blue cbk-brand">CBK</strong></a>
+              <img  src="./images/logo/cbk-logo-blue.png" alt="" class="img-fluid pr-3" style="height: 30px;"><strong class="font-blue cbk-brand">CBK Electric</strong></a>
             </p>
           </div>
 
-          <div class="col-12 col-md-10 d-none d-xl-block">
+          <div class="col-12 col-md-10 col-xl-6 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a class="nav-link _cbk-home" style="cursor: pointer;">Home</a></li>
@@ -96,8 +96,7 @@
             </nav>
           </div>
 
-
-          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;">
+          <div class="col-4 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;">
             <a href="#" class="site-menu-toggle js-menu-toggle float-right">
               <span class="icon-menu h3"></span>
             </a>
@@ -113,7 +112,7 @@
 
         <section class="product-warranty pb-5">
           <div class="container text-white">
-            <h3>Product Warranty</h3>
+            <h3 id="warranty-scrolltop">Product Warranty</h3>
             <br>
             <p class="lead-p text-white">Thank you for purchasing CBK Products.</p>
             <br>
@@ -219,7 +218,7 @@
           <div class="col-12 about-padding">
             <ul class="list-inline">
               <li class="list-inline-item"><img class="img-fluid footer-logo" src="./images/logo/cbk-logo-white.png" alt="" style="filter: brightness(77%);"></li>
-              <li class="list-inline-item"><h5 class="font-fadedwht">CBK Electronics</h5></li>
+              <li class="list-inline-item"><h5 class="font-fadedwht">CBK Electric</h5></li>
             </ul>
           </div>
         </div>
@@ -282,7 +281,7 @@
       <div class="container-fluid">
         <div class="row border-top border-1 copyright-border-color py-3">
           <div class="col-12 text-center margin-auto">
-            <p class="mb-0 stp-p">Copyright &copy; 2022 CBK Electronics | <a class="text-decoration-underline privacyPolicy" style="cursor: pointer;">Privacy Policy</a></p>
+            <p class="mb-0 stp-p">Copyright &copy; 2022 CBK Electric | <a class="text-decoration-underline privacyPolicy" style="cursor: pointer;">Privacy Policy</a></p>
           </div>
         </div>
       </div>
@@ -298,6 +297,10 @@
         </div>
       </div>
     </div>
+
+    <a id="floatingBtn" class="float" onclick="scrollToSection('_main-section');" style="display: none;">
+      <i class="fas fa-chevron-up my-float font-white"></i>
+    </a>
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
@@ -447,7 +450,7 @@
           }
         });
         $(window).scroll(function () {
-            
+            backtotop('warranty-scrolltop');
         });
 
         /* ACTUAL EVENT HANDLERS END */
@@ -583,24 +586,6 @@
         $('#_detail-modal').modal('show');
       }
 
-      function goToLink(_serviceLink){
-        switch(_serviceLink) { 
-          case 'requestService':
-            window.open('https://docs.google.com/forms/d/e/1FAIpQLScjefX_0WwOaYKrzFmMFoOXeHxYrdiUCvIv91VzOcvVs63PQw/viewform')
-            break;
-          case 'productRegistration':
-            window.open('https://docs.google.com/forms/d/e/1FAIpQLSd-ECQiAsGneiIInl34gfdV37XG8zF1TqvXIHMTMCkcpPmXNw/viewform')
-            break;
-          case 'facebook':
-            window.open('https://www.facebook.com/CBKPHILPIPPINES')
-            break;  
-          case 'instagram':
-            window.open('https://www.instagram.com/cbk_pressurewasher/')
-            break; 
-          default:
-            // code block
-        }
-      }
 
     </script>
 
