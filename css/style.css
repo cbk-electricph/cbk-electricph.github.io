@@ -814,6 +814,10 @@ hr{
   z-index: -1 !important;
 }
 
+.cbk-brand{
+  font-family: 'Times New Roman', Times, serif;
+}
+
 @media (min-width: 200px) and (max-width: 490.98px){
   h1{
     font-size: 38px !important;
@@ -941,6 +945,12 @@ hr{
   .tab-display{
     padding-bottom: 7px;
   }
+  .cbk-brand{
+    font-size: 35px !important;
+  }
+  .cbk-logo{
+    margin-bottom: 0.7rem !important;
+  }
 }
 
 @media (min-width: 491px) and (max-width: 575.98px){
@@ -1065,7 +1075,12 @@ hr{
   .tab-display-p{
     display: none;
   }
-  
+  .cbk-brand{
+    font-size: 37px !important;
+  }
+  .cbk-logo{
+    margin-bottom: 0.7rem !important;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px){
@@ -1189,6 +1204,12 @@ hr{
   }
   .tab-display{
     display: none;
+  }
+  .cbk-brand{
+    font-size: 38px !important;
+  }
+  .cbk-logo{
+    margin-bottom: 0.8rem !important;
   }
 }
 
@@ -1323,6 +1344,12 @@ hr{
   .tab-display{
     display: none;
   }
+  .cbk-brand{
+    font-size: 40px !important;
+  }
+  .cbk-logo{
+    margin-bottom: 0.7rem !important;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px){
@@ -1441,6 +1468,12 @@ hr{
   }
   .tab-display{
     display: none;
+  }
+  .cbk-brand{
+    font-size: 40px !important;
+  }
+  .cbk-logo{
+    margin-bottom: 0.75rem !important;
   }
 }
 
@@ -1571,6 +1604,12 @@ hr{
   }
   .tab-display{
     display: none;
+  }
+  .cbk-brand{
+    font-size: 43px !important;
+  }
+  .cbk-logo{
+    margin-bottom: 1rem !important;
   }
 }
 
