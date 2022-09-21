@@ -810,6 +810,10 @@ hr{
 	margin-top:22px;
 }
 
+.bringBackwards{
+  z-index: -1 !important;
+}
+
 @media (min-width: 200px) and (max-width: 490.98px){
   h1{
     font-size: 38px !important;
